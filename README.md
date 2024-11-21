@@ -6,7 +6,7 @@
 
 * In GPT3 they used sparse transformer because of computation efficiency reduced computation from (N^2 to N.k)
 Since my model is relatively small with 124 million parameters compared to GPT-3's largest variant with 175 billion parameters,<br/>
-I have opted for using a full attention mechanism. This approach helps simplify the initial stages <br/>
+* I have opted for using a full attention mechanism. This approach helps simplify the initial stages <br/>
 of training and avoids the complexity that comes with more advanced mechanisms.
 
 
