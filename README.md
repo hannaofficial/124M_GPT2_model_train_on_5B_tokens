@@ -8,6 +8,7 @@
 Since my model is relatively small with 124 million parameters compared to GPT-3's largest variant with 175 billion parameters,<br/>
 * I have opted for using a full attention mechanism. This approach helps simplify the initial stages <br/>
 of training and avoids the complexity that comes with more advanced mechanisms.
+* For some initial training step they(in GPT3 paper) use batchsize of 32k then increase to 0.5M batch size after some training step in 124M (I didn't use this)
 
 
 > *  I haven't commented the code neatly, but I hope you'll be able to understand it.
